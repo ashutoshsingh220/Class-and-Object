@@ -1,0 +1,28 @@
+#include <iostream>
+using namespace std;
+
+class student{
+    public:
+    string name;
+    int age;
+    string branch;
+    int year;
+    
+};
+int main() {
+    student s1;
+    s1.name="Ashutosh";
+    cout<<s1.name<<endl;
+    s1.age=20;
+    cout<<s1.age<<endl;
+    s1.branch="entc";
+    cout<<s1.branch<<endl;
+    s1.year=2023;
+    cout<<s1.year<<endl;
+    return 0;
+}
+//output
+/*Ashutosh
+20
+entc
+2023*/
